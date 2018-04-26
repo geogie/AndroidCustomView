@@ -3,4 +3,13 @@
     <declare-styleable name="MyFlipPager">
         <attr name="control_pic" format="reference"></attr>
     </declare-styleable>
+    <declare-styleable name="CustomProgress">
+        <attr name="sideColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="sideWidth" format="dimension" />
+        <attr name="overText" format="string" />
+        <attr name="nearOverText" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="isNeedAnim" format="boolean" />
+    </declare-styleable>
 </resources>

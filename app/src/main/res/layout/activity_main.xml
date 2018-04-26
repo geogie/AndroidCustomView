@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.georgeren.androidcustomview.MainActivity">
+    <com.georgeren.androidcustomview.CustomProgress
+        android:id="@+id/custom1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:nearOverText="nearOverText"
+        app:overText="overText"/>
+    <com.georgeren.androidcustomview.CustomProgress
+        android:id="@+id/custom2"
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        app:nearOverText="nearOverText"
+        app:overText="overText"/>
+    <com.georgeren.androidcustomview.CustomProgress2
+        android:id="@+id/custom3"
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="20dp" />
 
-</LinearLayout>
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:max="100" />
+</RelativeLayout>
